@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display");
+#main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#main input {
+  width: 45%;
+  padding: 12px;
+  background-color: rgb(241, 239, 239);
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
+
+#main input:focus {
+  outline: none;
+}
+h1 {
+  font-size: 70px;
+  text-transform: lowercase;
+  text-align: center;
+  font-family: sans-serif;
+}
+h1::first-letter {
+  text-transform: uppercase;
+  color: rgb(77, 106, 236);
+  font-family: "Major Mono Display", monospace;
+  font-size: 100px;
+}
+.second {
+  color: rgb(243, 20, 20);
+}
+.third {
+  color: rgb(189, 189, 9);
+}
+.fourth {
+  color: rgb(77, 106, 236);
+}
+.fifth {
+  color: rgb(9, 185, 9);
+  font-size: 80px;
+}
+.sixth {
+  color: rgb(243, 20, 20);
+}
+
+#filtersubmit {
+  position: relative;
+  z-index: 1;
+  left: -25px;
+  top: 1px;
+  cursor: pointer;
+  width: 0;
+  font-size: 20px;
+  color: rgb(77, 106, 236);
+}
+@media screen and (max-width: 400px) {
+  #filtersubmit {
+    left: -15px;
+  }
+}
